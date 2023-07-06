@@ -1,0 +1,13 @@
+asm/
+assets/
+build/
+expected/
+
+.ninja_deps
+.ninja_log
+baserom.us.z64
+build.ninja
+
+elmosnumberjourney.ld
+undefined_funcs_auto.txt
+undefined_syms_auto.txt

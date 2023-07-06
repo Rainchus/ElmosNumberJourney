@@ -1,0 +1,248 @@
+name: Elmo'S Number Journe (North America)
+sha1: 7195ea96d9fe5de065af61f70d55c92c8ee905e6
+options:
+  basename: elmosnumberjourney
+  target_path: baserom.us.z64
+  base_path: .
+  compiler: GCC
+  find_file_boundaries: True
+  header_encoding: ASCII
+  platform: n64
+  asm_inc_header: "\t.set noat\n\t.set noreorder\n"
+  undefined_funcs_auto_path: undefined_funcs_auto.txt
+  undefined_syms_auto_path: undefined_syms_auto.txt
+  symbol_addrs_path: symbol_addrs.txt
+  asm_path: asm
+  src_path: src
+  build_path: build
+  # extensions_path: tools/splat_ext
+  # mips_abi_float_regs: o32
+  # section_order: [".text", ".data", ".rodata", ".bss"]
+  # auto_all_sections: [".data", ".rodata", ".bss"]
+  # libultra_symbols: True
+  # hardware_regs: True
+segments:
+  - name: header
+    type: header
+    start: 0x0
+
+  - name: boot
+    type: bin
+    start: 0x40
+
+  - name: entry
+    type: code
+    start: 0x1000
+    vram: 0x80000400
+    subsegments:
+      - [0x1000, hasm]
+
+  - name: main
+    type: code
+    start: 0x1050
+    vram: 0x80000450
+    follows_vram: entry
+    bss_size: 0xC5040
+    subsegments:
+      - [0x1050, c]
+      - [0x1B60, c]
+      - [0x1FB0, c]
+      - [0xCC40, c]
+      - [0xD410, c]
+      - [0xDFC0, c]
+      - [0xE880, c]
+      - [0xF080, c]
+      - [0xF810, c]
+      - [0x13BD0, c]
+      - [0x14010, c]
+      - [0x17DF0, c]
+      - [0x18120, c]
+      - [0x18800, c]
+      - [0x195A0, c]
+      - [0x198B0, c]
+      - [0x1F1F0, c]
+      - [0x209A0, c]
+      - [0x22240, c]
+      - [0x22470, c]
+      - [0x22620, c]
+      - [0x266D0, c]
+      - [0x28990, c]
+      - [0x2D400, c]
+      - [0x34970, c]
+      - [0x37690, c]
+      - [0x3DFD0, c]
+      - [0x3FBE0, c]
+      - [0x40840, c]
+      - [0x43220, c]
+      - [0x43480, c]
+      - [0x43D70, c]
+      - [0x447E0, c]
+      - [0x46E20, c]
+      - [0x47190, c]
+      - [0x47410, c]
+      - [0x49D80, c]
+      - [0x4A520, c]
+      - [0x4A570, c]
+      - [0x4C710, c]
+      - [0x4EA00, c]
+      - [0x4EB20, c]
+      - [0x523C0, c]
+      - [0x52C10, c]
+      - [0x53210, c]
+      - [0x534F0, c]
+      - [0x54350, c]
+      - [0x552E0, c]
+      - [0x55A00, c]
+      - [0x55BE0, c]
+      - [0x565D0, c]
+      - [0x56650, c]
+      - [0x566A0, c]
+      - [0x56880, c]
+      - [0x56930, c]
+      - [0x569C0, c]
+      - [0x56A50, c]
+      - [0x56B00, c]
+      - [0x56B90, c]
+      - [0x56C10, c]
+      - [0x57170, c]
+      - [0x571C0, c]
+      - [0x57290, c]
+      - [0x572A0, c]
+      - [0x57B00, c]
+      - [0x57F10, c]
+      - [0x58390, c]
+      - [0x58670, c]
+      - [0x58990, c]
+      - [0x58A70, c]
+      - [0x58FD0, c]
+      - [0x590E0, c]
+      - [0x591B0, c]
+      - [0x591E0, c]
+      - [0x59340, c]
+      - [0x59670, c]
+      - [0x597A0, c]
+      - [0x59930, c]
+      - [0x59A00, c]
+      - [0x59AA0, c]
+      - [0x59BC0, c]
+      - [0x59CC0, c]
+      - [0x5A0C0, c]
+      - [0x5A140, c]
+      - [0x5A170, c]
+      - [0x5A9A0, c]
+      - [0x5B4B0, c]
+      - [0x5B5C0, c]
+      - [0x5C290, c]
+      - [0x5C6B0, c]
+      - [0x5D250, c]
+      - [0x5D3D0, c]
+      - [0x5D410, c]
+      - [0x5D460, c]
+      - [0x5D4A0, c]
+      - [0x5DAE0, c]
+      - [0x5DAF0, c]
+      - [0x5DB90, c]
+      - [0x5DBB0, c]
+      - [0x5DBD0, c]
+      - [0x5DC50, c]
+      - [0x5FE30, c]
+      - [0x5FF80, c]
+      - [0x60020, c]
+      - [0x60190, c]
+      - [0x601F0, c]
+      - [0x60240, c]
+      - [0x60290, c]
+      - [0x60470, c]
+      - [0x60780, c]
+      - [0x60A80, c]
+      - [0x60C50, c]
+      - [0x60CF0, c]
+      - [0x60DD0, c]
+      - [0x60ED0, c]
+      - [0x61290, c]
+      - [0x61380, c]
+      - [0x61430, c]
+      - [0x617D0, c]
+      - [0x61980, c]
+      - [0x61AB0, c]
+      - [0x61B40, c]
+      - [0x61E90, c]
+      - [0x62930, c]
+      - [0x629E0, c]
+      - [0x637D0, c]
+      - [0x637E0, c]
+      - [0x63860, c]
+      - [0x638A0, c]
+      - [0x63960, c]
+      - [0x63970, c]
+      - [0x63A10, c]
+      - [0x63A70, c]
+      - [0x63B40, c]
+      - [0x63B60, c]
+      - [0x63CA0, c]
+      - [0x63F60, c]
+      - [0x63FB0, c]
+      - [0x64040, c]
+      - [0x64260, c]
+      - [0x64330, c]
+      - [0x64350, c]
+      - [0x643F0, c]
+      - [0x64440, c]
+      - [0x64680, c]
+      - [0x646A0, c]
+      - [0x646F0, c]
+      - [0x64800, c]
+      - [0x64840, c]
+      - [0x64880, c]
+      - [0x64C10, c]
+      - [0x64C60, c]
+      - [0x64CB0, c]
+      - [0x64FA0, c]
+      - [0x64FC0, c]
+      - [0x65060, c]
+      - [0x65150, c]
+      - [0x65390, c]
+      - [0x654E0, c]
+      - [0x66510, c]
+      - [0x665A0, c]
+      - [0x66D10, c]
+      - [0x66E60, c]
+      - [0x67920, c]
+      - [0x681F0, c]
+      - [0x68F40, c]
+      - [0x68F50, c]
+      - [0x68F60, c]
+      - [0x69020, c]
+      - [0x69040, c]
+      - [0x69060, c]
+      - [0x69100, c]
+      - [0x69190, c]
+      - [0x691A0, c]
+      - [0x69490, c]
+      - [0x69F10, c]
+      - [0x6A0D0, c]
+      - [0x6A250, c]
+      - [0x6A690, c]
+      - [0x6A870, c]
+      - [0x6A940, c]
+      - [0x6ADF0, c]
+      - [0x6B010, c]
+      - [0x6B0E0, c]
+      - [0x6B150, c]
+      - [0x6B3C0, hasm]
+      - [0x6B530, hasm]
+      - [0x6B550, c]
+      - [0x6B6B0, c]
+      - [0x6B7B0, c]
+      - [0x6B8A0, c]
+      - [0x6B9A0, c]
+      - [0x6B9B0, c]
+      - [0x6BE90, c]
+      - [0x6D300, bin]
+      - [0x6DB30, data]
+      - { start: 0x7CB20, type: bss, vram: 0x8007BF20 }
+
+  - type: bin
+    start: 0x7CB20
+    follows_vram: main
+  - [0x800000]

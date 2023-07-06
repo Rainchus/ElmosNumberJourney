@@ -1,0 +1,61 @@
+#include "common.h"
+
+INCLUDE_ASM(const s32, "2D400", func_8002C800);
+
+INCLUDE_ASM(const s32, "2D400", func_8002D0A4);
+
+INCLUDE_ASM(const s32, "2D400", func_8002E154);
+
+INCLUDE_ASM(const s32, "2D400", func_8002E308);
+
+INCLUDE_ASM(const s32, "2D400", func_8002E35C);
+
+INCLUDE_ASM(const s32, "2D400", func_8002E568);
+
+INCLUDE_ASM(const s32, "2D400", func_8002E82C);
+
+INCLUDE_ASM(const s32, "2D400", func_8002F640);
+
+INCLUDE_ASM(const s32, "2D400", func_8002F78C);
+
+INCLUDE_ASM(const s32, "2D400", func_8003086C);
+
+INCLUDE_ASM(const s32, "2D400", func_800319A0);
+
+INCLUDE_ASM(const s32, "2D400", func_800324A0);
+
+INCLUDE_ASM(const s32, "2D400", func_80032670);
+
+INCLUDE_ASM(const s32, "2D400", func_80032774);
+
+INCLUDE_ASM(const s32, "2D400", func_800327A4);
+
+INCLUDE_ASM(const s32, "2D400", func_80032894);
+
+INCLUDE_ASM(const s32, "2D400", func_80032924);
+
+INCLUDE_ASM(const s32, "2D400", func_80032B28);
+
+INCLUDE_ASM(const s32, "2D400", func_80032DB0);
+
+INCLUDE_ASM(const s32, "2D400", func_80033058);
+
+INCLUDE_ASM(const s32, "2D400", func_80033224);
+
+INCLUDE_ASM(const s32, "2D400", func_8003325C);
+
+INCLUDE_ASM(const s32, "2D400", func_80033368);
+
+INCLUDE_ASM(const s32, "2D400", func_80033498);
+
+INCLUDE_ASM(const s32, "2D400", func_80033528);
+
+INCLUDE_ASM(const s32, "2D400", func_800336AC);
+
+INCLUDE_ASM(const s32, "2D400", func_80033850);
+
+INCLUDE_ASM(const s32, "2D400", func_80033A6C);
+
+INCLUDE_ASM(const s32, "2D400", func_80033C68);
+
+INCLUDE_ASM(const s32, "2D400", func_80033CF0);

@@ -1,0 +1,213 @@
+#include "common.h"
+
+INCLUDE_ASM(const s32, "4EB20", func_8004DF20);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004E06C);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004E2F4);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004E320);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004E350);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004E5A0);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004E620);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004E738);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004E804);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004E884);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004E938);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004E990);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004E9F0);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EA60);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EAD0);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EB5C);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EBE4);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EC20);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EC48);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EC6C);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EC78);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004ECD4);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004ECF8);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004ED20);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004ED50);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EDAC);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EE30);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EE38);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EE44);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EE50);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EE5C);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EE64);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EE6C);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EE78);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EEDC);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EF54);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EF60);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004EFC4);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004F044);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004F0DC);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004F3CC);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004F914);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004F990);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004FAE4);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004FBF0);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004FC60);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004FE54);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004FE70);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004FF28);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004FF80);
+
+INCLUDE_ASM(const s32, "4EB20", func_8004FFE4);
+
+INCLUDE_ASM(const s32, "4EB20", func_800500A8);
+
+INCLUDE_ASM(const s32, "4EB20", func_800501BC);
+
+INCLUDE_ASM(const s32, "4EB20", func_80050350);
+
+INCLUDE_ASM(const s32, "4EB20", func_800504E8);
+
+INCLUDE_ASM(const s32, "4EB20", func_8005057C);
+
+INCLUDE_ASM(const s32, "4EB20", func_800506B8);
+
+INCLUDE_ASM(const s32, "4EB20", func_80050880);
+
+INCLUDE_ASM(const s32, "4EB20", func_800508B8);
+
+INCLUDE_ASM(const s32, "4EB20", func_80050968);
+
+INCLUDE_ASM(const s32, "4EB20", func_80050B10);
+
+INCLUDE_ASM(const s32, "4EB20", func_80050D7C);
+
+INCLUDE_ASM(const s32, "4EB20", func_80050DD0);
+
+INCLUDE_ASM(const s32, "4EB20", func_80050DF0);
+
+INCLUDE_ASM(const s32, "4EB20", func_80050E20);
+
+INCLUDE_ASM(const s32, "4EB20", func_80050E40);
+
+INCLUDE_ASM(const s32, "4EB20", func_80050E4C);
+
+INCLUDE_ASM(const s32, "4EB20", func_80050F74);
+
+INCLUDE_ASM(const s32, "4EB20", func_80051058);
+
+INCLUDE_ASM(const s32, "4EB20", func_8005106C);
+
+INCLUDE_ASM(const s32, "4EB20", func_80051090);
+
+INCLUDE_ASM(const s32, "4EB20", func_80051100);
+
+INCLUDE_ASM(const s32, "4EB20", func_80051174);
+
+INCLUDE_ASM(const s32, "4EB20", func_80051184);
+
+INCLUDE_ASM(const s32, "4EB20", func_800511B4);
+
+INCLUDE_ASM(const s32, "4EB20", func_800511C4);
+
+INCLUDE_ASM(const s32, "4EB20", func_800511D4);
+
+INCLUDE_ASM(const s32, "4EB20", func_800511E4);
+
+INCLUDE_ASM(const s32, "4EB20", func_8005123C);
+
+INCLUDE_ASM(const s32, "4EB20", func_8005124C);
+
+INCLUDE_ASM(const s32, "4EB20", func_80051258);
+
+INCLUDE_ASM(const s32, "4EB20", func_80051268);
+
+INCLUDE_ASM(const s32, "4EB20", func_80051274);
+
+INCLUDE_ASM(const s32, "4EB20", func_800512E0);
+
+INCLUDE_ASM(const s32, "4EB20", func_8005137C);
+
+INCLUDE_ASM(const s32, "4EB20", func_800513A4);
+
+INCLUDE_ASM(const s32, "4EB20", func_800513B0);
+
+INCLUDE_ASM(const s32, "4EB20", func_800513C0);
+
+INCLUDE_ASM(const s32, "4EB20", func_800513CC);
+
+INCLUDE_ASM(const s32, "4EB20", func_800513E0);
+
+INCLUDE_ASM(const s32, "4EB20", func_800513F4);
+
+INCLUDE_ASM(const s32, "4EB20", func_800513FC);
+
+INCLUDE_ASM(const s32, "4EB20", func_80051444);
+
+INCLUDE_ASM(const s32, "4EB20", func_80051450);
+
+INCLUDE_ASM(const s32, "4EB20", func_80051458);
+
+INCLUDE_ASM(const s32, "4EB20", func_800514C8);
+
+INCLUDE_ASM(const s32, "4EB20", func_800514D8);
+
+INCLUDE_ASM(const s32, "4EB20", func_80051528);
+
+INCLUDE_ASM(const s32, "4EB20", func_80051578);
+
+INCLUDE_ASM(const s32, "4EB20", func_800515C8);
+
+INCLUDE_ASM(const s32, "4EB20", func_800515D8);
+
+INCLUDE_ASM(const s32, "4EB20", func_800516A8);
+
+INCLUDE_ASM(const s32, "4EB20", func_800516E4);
+
+INCLUDE_ASM(const s32, "4EB20", func_800516F4);
+
+INCLUDE_ASM(const s32, "4EB20", func_80051738);
+
+INCLUDE_ASM(const s32, "4EB20", func_800517A8);
